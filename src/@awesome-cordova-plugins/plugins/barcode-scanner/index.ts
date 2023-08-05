@@ -107,9 +107,9 @@ export interface BarcodeScanResult {
  */
 @Plugin({
   pluginName: 'BarcodeScanner',
-  plugin: 'phonegap-plugin-barcodescanner',
-  pluginRef: 'cordova.plugins.barcodeScanner',
-  repo: 'https://github.com/phonegap/phonegap-plugin-barcodescanner',
+  plugin: 'mikesoft-phonegap-plugin-barcodescanner',
+  pluginRef: 'mikesoft-cordova.plugins.barcodeScanner',
+  repo: 'hhttps://github.com/Mikesoft-Sistemas/phonegap-plugin-barcodescanner',
   platforms: ['Android', 'BlackBerry 10', 'Browser', 'iOS', 'Windows'],
 })
 @Injectable()
